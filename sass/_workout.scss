@@ -1,6 +1,6 @@
 // Workout Details Page
 $image_height: 43px;
-$image_offset: $image_size * -1;
+$image_offset: $image_height * -1;
 
 #price {
   float: right;
@@ -56,7 +56,6 @@ $image_offset: $image_size * -1;
         cursor: default;
       }
     }
-
 
     li a[href^="#reviews"] { margin-right: 0; }
   }
