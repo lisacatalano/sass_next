@@ -300,14 +300,12 @@ nav ul li, footer ul li {
 }
 /* line 53, C:/Users/Lisa/Dropbox/development/sass_next/sass/_nav.scss */
 #type li a {
-  box-sizing: border-box;
   color: white;
   width: 180px;
   margin: 8px;
-  padding-left: 60px;
   text-align: left;
 }
-/* line 63, C:/Users/Lisa/Dropbox/development/sass_next/sass/_nav.scss */
+/* line 61, C:/Users/Lisa/Dropbox/development/sass_next/sass/_nav.scss */
 #type img {
   padding-right: 8px;
 }
@@ -633,31 +631,29 @@ p.reviewer {
   font-size: 1.2em;
 }
 
-/* line 2, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+/* line 15, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
 #category #main {
   height: 468px;
 }
 
-/* line 5, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+/* line 18, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
 #listing ul {
   line-height: 50px;
   border-radius: 10px;
   behavior: url(PIE.htc);
 }
-/* line 9, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+/* line 22, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
 #listing img {
   padding-right: 8px;
 }
-/* line 11, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+/* line 24, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
 #listing li {
   list-style: none;
 }
-/* line 14, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+/* line 27, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
 #listing li a {
-  box-sizing: border-box;
   width: 200px;
   margin: 10px;
-  padding-left: 60px;
   display: block;
   float: left;
   line-height: 50px;
@@ -665,9 +661,87 @@ p.reviewer {
   font-size: 1.3em;
   margin-left: 1em;
 }
-/* line 27, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+/* line 38, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
 #listing li a:hover {
   border-radius: 8px;
   behavior: url(PIE.htc);
   background-color: #c2cf52;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.ball {
+  background: #c2cf52 url(../images/icon/ball.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.ballet {
+  background: #c2cf52 url(../images/icon/ballet.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.bosu {
+  background: #c2cf52 url(../images/icon/bosu.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.cardio {
+  background: #c2cf52 url(../images/icon/cardio.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.circuit {
+  background: #c2cf52 url(../images/icon/circuit.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.kettlebell {
+  background: #c2cf52 url(../images/icon/kettlebell.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.kickbox {
+  background: #c2cf52 url(../images/icon/kickbox.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.pilates {
+  background: #c2cf52 url(../images/icon/pilates.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.spinning {
+  background: #c2cf52 url(../images/icon/spinning.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.step {
+  background: #c2cf52 url(../images/icon/step.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.strength {
+  background: #c2cf52 url(../images/icon/strength.png) no-repeat;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.yoga {
+  background: #c2cf52 url(../images/icon/yoga.png) no-repeat;
+}
+
+/* line 52, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.category span {
+  border-radius: 7px;
+  behavior: url(PIE.htc);
+  display: inline-block;
+  width: 50px;
+  margin-right: 8px;
+}
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.category span:after {
+  content: ".";
+  color: #c2cf52;
+}
+/* line 62, C:/Users/Lisa/Dropbox/development/sass_next/sass/_category.scss */
+.category span.spinning:after {
+  color: #fff;
 }
