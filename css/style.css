@@ -404,6 +404,51 @@ span.overlay img {
   color: #c2cf52;
 }
 
+/* line 23, C:/Users/Lisa/Dropbox/development/sass_next/sass/_ads.scss */
+.ad {
+  clear: both;
+  margin: 10px 0 30px;
+  background-color: #c2cf52;
+  color: #4e4f48;
+  font-size: 2em;
+  float: left;
+  width: 728px;
+  height: 90px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 35, C:/Users/Lisa/Dropbox/development/sass_next/sass/_ads.scss */
+.ad .msg {
+  padding-left: 25px;
+  width: 100%;
+  font-size: 2em;
+  line-height: 90px;
+  position: absolute;
+  top: 0;
+  background-color: #c2cf52;
+  opacity: 0;
+}
+/* line 48, C:/Users/Lisa/Dropbox/development/sass_next/sass/_ads.scss */
+.ad .msg:first-child {
+  opacity: 1;
+}
+
+/* line 57, C:/Users/Lisa/Dropbox/development/sass_next/sass/_ads.scss */
+.newsletter {
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  padding: 10px 8px;
+  background-color: #4e4f48;
+  float: right;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 67, C:/Users/Lisa/Dropbox/development/sass_next/sass/_ads.scss */
+.newsletter a {
+  color: #c2cf52;
+}
+
 /* line 5, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 #price {
   float: right;
