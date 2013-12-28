@@ -1,0 +1,32 @@
+// Animation Variables
+$ad-screen-count: 6;      // How many screens in the slideshow
+$ad-screen-duration: 3;   // How long will each screen be displayed at full opacity
+$ad-fade-duration: 1;     // How long should it take to fade out
+
+$ad-msg-duration: $ad-screen-duration + $ad-fade-duration;  // 3 + 1 = 4.  how long does one screen take
+$total-duration: $ad-msg-duration * $ad-screen-count;       // 4 * 4 = 20. how long will the full show take
+
+$ad-screen-pct: 100% / $ad-screen-count;
+$ad-fade-pct: $ad-fade-duration / $total-duration * 100%;
+$hide-pct: $ad-screen-pct + $ad-fade-pct;
+
+// Animation Set Up - Step 1
+@-webkit-keyframes adAnimation {
+  0%                                  { opacity: 0; }
+  #{$ad-fade-pct}, #{$ad-screen-pct}  { opacity: 1; }
+  #{$hide-pct}, 100%                  { opacity: 0; }
+}
+
+// Animate the Ad - Step 2
+.ad {
+  .msg {
+    -webkit-animation: adAnimation #{$total-duration}s infinite;
+
+    @for $i from 1 through $ad-screen-count {
+      &:nth-of-type(#{$i}) {
+        -webkit-animation-delay: #{($i - 1) * $ad-msg-duration}s;
+      }
+    }
+  }
+
+}
