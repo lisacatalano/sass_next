@@ -128,7 +128,12 @@ $image_offset: $image_height * -1;
     float: left;
     font-weight: bold;
   }
-  img { vertical-align: middle; padding: 5px; }
+  img {
+    vertical-align: middle;
+    margin: 5px;
+    background-color: $accent;
+    @include rounded(5px);
+  }
 }
 
 #details { line-height: 1.4em; }

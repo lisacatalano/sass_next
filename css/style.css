@@ -343,17 +343,18 @@ footer li a.last {
   margin-bottom: 20px;
   float: left;
   position: relative;
+  overflow: hidden;
 }
-/* line 7, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
+/* line 8, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
 #feature img {
   position: relative;
 }
 
-/* line 11, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
+/* line 12, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
 .new {
   float: left;
 }
-/* line 14, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
+/* line 15, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
 .new span.overlay {
   display: block;
   opacity: 0;
@@ -368,13 +369,13 @@ footer li a.last {
   padding: 10px;
   color: white;
 }
-/* line 30, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
+/* line 31, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
 .new a:hover span.overlay {
   opacity: 1;
   bottom: 0;
 }
 
-/* line 36, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
+/* line 37, C:/Users/Lisa/Dropbox/development/sass_next/sass/_feature.scss */
 span.overlay img {
   padding-right: 6px;
 }
@@ -719,44 +720,47 @@ span.overlay img {
 /* line 131, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 .classify img {
   vertical-align: middle;
-  padding: 5px;
+  margin: 5px;
+  background-color: #c2cf52;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
 }
 
-/* line 134, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
+/* line 139, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 #details {
   line-height: 1.4em;
 }
 
-/* line 136, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
+/* line 141, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 #video {
   width: 600px;
   margin: auto;
   padding: 15px;
 }
 
-/* line 141, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
+/* line 146, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 #reviews {
   width: 590px;
   margin: auto;
   padding: 20px;
 }
-/* line 146, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
+/* line 151, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 #reviews img {
   float: left;
 }
-/* line 147, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
+/* line 152, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 #reviews h3 {
   float: left;
   margin: 0 0 5px 5px;
   font-size: 1.1em;
 }
-/* line 148, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
+/* line 153, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 #reviews p {
   line-height: 1.4em;
   margin: 0 0 1.2em 0;
 }
 
-/* line 151, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
+/* line 156, C:/Users/Lisa/Dropbox/development/sass_next/sass/_workout.scss */
 p.reviewer {
   clear: both;
   font-size: .95em;
